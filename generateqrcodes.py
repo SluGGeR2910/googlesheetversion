@@ -10,7 +10,7 @@ df = pd.read_csv(SHEET_URL)
 os.makedirs("qrcodes", exist_ok=True)
 
 # 3. Base URL of your Render app
-BASE_URL = "https://slugtries.onrender.com?id="
+BASE_URL = "https://googlesheetversion.onrender.com?id="
 
 # 4. Loop through each asset and generate QR
 for asset_id in df['Asset ID']:
